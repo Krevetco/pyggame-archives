@@ -254,7 +254,7 @@ else:
 
 # now in pep0723
 #PYCONFIG_PKG_INDEXES = [
-#    os.environ.get('PYGPY', "https://pygame-web.github.io/archives/repo/"),
+#    os.environ.get('PYGPY', "https://krevetco.github.io/pyggame-archives/repo/"),
 #]
 
 PyConfig["imports_ready"] = False

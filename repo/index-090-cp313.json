@@ -1,5 +1,5 @@
 {
-    "-CDN-": "https://pygame-web.github.io/archives/repo/",
+    "-CDN-": "https://krevetco.github.io/pyggame-archives/repo/",
     "Box2D": "cp313/Box2D-2.3.10-<abi>-<abi>-<api>.whl",
     "Cython": "pkg/Cython-3.0.0a11-py2.py3-none-any.whl",
     "Fetch": "vendor/Fetch.py",

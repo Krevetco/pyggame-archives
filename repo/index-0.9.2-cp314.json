@@ -1,5 +1,5 @@
 {
-    "-CDN-": "https://pygame-web.github.io/archives/repo/",
+    "-CDN-": "https://krevetco.github.io/pyggame-archives/repo/",
     "Cython": "pkg/Cython-3.0.0a11-py2.py3-none-any.whl",
     "_distutils_hack": "pkg/setuptools-62.6.0-py3-none-any.whl",
     "_pytest": "pkg/pytest-7.1.2-py3-none-any.whl",

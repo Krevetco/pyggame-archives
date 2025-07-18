@@ -563,7 +563,7 @@ async function custom_postrun() {
         .catch(x => console.error(x))
 /*
     store_file(
-        "https://pygame-web.github.io/archives/repo/repodata.json",
+        "https://krevetco.github.io/pyggame-archives/repo/repodata.json",
         "/data/data/org.python/repodata.json"
     )
 */

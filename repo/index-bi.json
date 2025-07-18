@@ -1,5 +1,5 @@
 {
-    "-CDN-": "https://pygame-web.github.io/archives/repo/",
+    "-CDN-": "https://krevetco.github.io/pyggame-archives/repo/",
     "Cython": "pkg/Cython-3.0.0a11-py2.py3-none-any.whl",
     "PIL": "pkg/pillow-10.3.0.dev0-<abi>-<abi>-<api>.whl",
     "__lib_lvgl": "pkg/lvgl-0.1.1b0-<abi>-<abi>-<api>.whl",

@@ -4,7 +4,7 @@ from pathlib import Path
 from zipfile import ZipFile
 
 
-MAP = {"-CDN-": "https://pygame-web.github.io/archives/repo/"}
+MAP = {"-CDN-": "https://krevetco.github.io/pyggame-archives/repo/"}
 
 
 # https://pypi.org/simple/pygbag/?format=application/vnd.pypi.simple.latest+json

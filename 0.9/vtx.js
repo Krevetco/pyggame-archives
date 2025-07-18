@@ -18,7 +18,7 @@ if (!window.Terminal) {
         xterm_cdn = window.Module.config.cdn+"vt/"
         console.log("Terminal+ImageAddon importing from CDN :", xterm_cdn)
     } else {
-        xterm_cdn = xterm_cdn || "https://pygame-web.github.io/archives/vt/"
+        xterm_cdn = xterm_cdn || "https://krevetco.github.io/pyggame-archives/vt/"
         console.warn("Terminal+ImageAddon importing from fallback ", xterm_cdn)
     }
 
