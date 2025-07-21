@@ -131,7 +131,7 @@ class MyHTTPRequestHandler(server.SimpleHTTPRequestHandler):
             content = file.read()
             if Path(path).suffix in [".html"]:
                 content = content.replace(
-                    b"https://pygame-web.github.io/", b"http://localhost:8000/"
+                    b"https://krevetco.github.io/", b"http://localhost:8000/"
                 )
 
         return flush()
