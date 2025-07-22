@@ -75,7 +75,7 @@ export class WasmTerminal {
                 allowProposedApi : true ,   // xterm 0.5 + sixel
                 scrollback: sback,
                 fontFamily: 'Courier-new, courier, monospace',
-                fontSize: (fontsize || 12),
+                fontSize: 14,
                 cols: (cols || 132),
                 rows: (rows || 32)
             }
