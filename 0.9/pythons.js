@@ -79,15 +79,15 @@ if (window.config) {
 }
 
 if (document.characterSet.toLowerCase() !== "utf-8")
-    alert("Host page encoding must be set to UTF-8 with tag :  meta charset=utf-8")
+    console.error("Host page encoding must be set to UTF-8 with tag :  meta charset=utf-8")
 
 window.addEventListener("error", function (e) {
-   alert("Error occurred: " + e.error.message);
+    console.error("Error occurred: " + e.error.message);
    return false;
 })
 
 window.addEventListener('unhandledrejection', function (e) {
-  alert("Error occurred: " + e.reason.message);
+    console.error("Error occurred: " + e.reason.message);
 })
 
 function reverse(s){
@@ -1149,28 +1149,27 @@ function focus_handler(ev) {
 
 function feat_lifecycle() {
         window.addEventListener("focus", MM.focus_handler)
-        window.addEventListener("blur", MM.focus_handler)
+    window.addEventListener("blur", MM.focus_handler)
 
-        if (!vm.config.can_close) {
-            window.onbeforeunload = function() {
-                console.warn("window.onbeforeunload")
-                if (MM.current_trackid) {
-                    console.warn("pausing music queue")
-                    MM.focus_lost = 1
-                    MM[MM.current_trackid].media.pause()
-                } else {
-                    console.warn("not track playing")
-                }
-                const message = "Are you sure you want to navigate away from this page ?"
-                if (confirm(message)) {
-                    return message
-                } else {
-                    return false
-                }
-            }
-        }
+    // if (!vm.config.can_close) {
+    //     window.onbeforeunload = function() {
+    //         console.warn("window.onbeforeunload")
+    //         if (MM.current_trackid) {
+    //             console.warn("pausing music queue")
+    //             MM.focus_lost = 1
+    //             MM[MM.current_trackid].media.pause()
+    //         } else {
+    //             console.warn("not track playing")
+    //         }
+    //         const message = "Are you sure you want to navigate away from this page ?"
+    //         if (confirm(message)) {
+    //             return message
+    //         } else {
+    //             return false
+    //         }
+    //     }
+    // }
 }
-
 
 function feat_snd() {
     // to set user media engagement status and possibly make it blocking
